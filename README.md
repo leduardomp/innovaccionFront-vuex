@@ -1,4 +1,4 @@
-# vuex
+# Ejercicio de vuex
 
 ## Project setup
 ```
