@@ -24,7 +24,7 @@ export default {
   name: "Card",
   props: {
     titulo: String,
-    valores: String,
+    valores: Array,
     precio: String,
     tituloBtn: String,
     urlImg: String,
@@ -74,11 +74,11 @@ export default {
 }
 
 .div-button{
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .btn-card {
-  position: relative; right: 0; bottom: 0;
+  right: 0; bottom: 0;
 }
 
 @media only screen and (min-width:1001px) {
