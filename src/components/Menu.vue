@@ -2,10 +2,10 @@
   <header>
     <nav>
       <ul>
-        <MenuElement nameLink="Inicio" />
-        <MenuElement nameLink="Productos" />
-        <MenuElement nameLink="Ordenes" />
-        <MenuElement nameLink="Contacto" />
+        <MenuElement nameLink="Inicio" link="#principal"/>
+        <MenuElement nameLink="Productos" link="#carrusel"/>
+        <MenuElement nameLink="Ordenes"   link="#ordenes"/>
+        <MenuElement nameLink="Contacto"  link="#contacto"/>
       </ul>
     </nav>
   </header>

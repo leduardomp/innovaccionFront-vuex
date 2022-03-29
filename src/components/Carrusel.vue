@@ -39,7 +39,7 @@ export default {
           id: 3,
           imgenSrc: require("@/assets/carrusel/pastel3.jpg"),
           titDesc: "Frutiquis",
-          textDesc: "Pastel con un rico conjunto frescas de temporada",
+          textDesc: "Pastel con un rico conjunto de frutas frescas de temporada",
         },
       ],
     };
@@ -59,7 +59,7 @@ export default {
       }
 
       slides.item(store.getters.slideIndex - 1).style.display = "block";
-      setTimeout(this.showSlides, 3000);
+      setTimeout(this.showSlides, 5000);
 
     },
   },

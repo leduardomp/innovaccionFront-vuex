@@ -1,6 +1,6 @@
 <template>
   <li>
-    <a>{{ nameLink }}</a>
+    <a :href="link">{{ nameLink }}</a>
   </li>
 </template>
 
@@ -9,6 +9,7 @@ export default {
   name: "MenuElement",
   props: {
     nameLink: String,
+    link:String
   },
 };
 </script>
@@ -25,6 +26,7 @@ li {
 li a {
   color: #0d6efd;
   font-size: 1.1em;
+  text-decoration: none;
 }
 
 /* Extra small devices (phones, 600px and down) */

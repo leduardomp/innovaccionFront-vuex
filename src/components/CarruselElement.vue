@@ -1,6 +1,8 @@
 <template>
   <div class="mySlides fade">
-    <img :src="imgenSrc" class="imgStyle" />
+    <div class="containerImg"> 
+      <img :src="imgenSrc" class="imgStyle" />
+    </div>
     <div class="textos">
       <div class="textA">{{ titDesc }}</div>
       <div class="textB">{{ textDesc }}</div>
@@ -20,6 +22,13 @@ export default {
 </script>
 
 <style scoped>
+
+.containerImg{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 .imgStyle {
   width: 100%;
   height: 100vh;
@@ -64,6 +73,12 @@ export default {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+.imgStyle {
+  width: auto;
+  height: 100vh;
+}
+
 .textos {
   bottom: 2%;
   left: 50%;

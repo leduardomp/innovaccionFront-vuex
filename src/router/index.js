@@ -6,7 +6,27 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
-  }
+  },
+  {
+    path: '/principal',
+    name: 'home',
+    component: HomeView
+  },
+  {
+    path: '/carrusel',
+    name: 'carrusel',
+    component: HomeView
+  },
+  {
+    path: '/ordenes',
+    name: 'ordenes',
+    component: HomeView
+  },
+  {
+    path: '/contacto',
+    name: 'contacto',
+    component: HomeView
+  },
 ]
 
 const router = createRouter({
