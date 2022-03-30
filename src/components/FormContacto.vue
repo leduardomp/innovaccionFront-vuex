@@ -16,41 +16,45 @@
         cols="15"
         rows="15"
       ></textarea>
+    </div> 
+    <div class="formElement">
+      <div class="correccionBTN">
+        <Boton titulo="Enviar"/>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import Boton from './Boton.vue';
+
+
 export default {
   name: "FormContacto",
+  components:{
+    Boton
+
+  }
 };
 </script>
 
 <style>
 .form {
   text-align: left;
-  padding-left: 15%;
 }
 
 .formElement {
-  font-size: 1.3em;
+  margin: auto;
   margin-bottom: 5%;
+  width: 60%;
 }
 
-.formElement input {
+.formElement input, textarea {
   width: 100%;
-  padding: 10px 5px;
   margin-top: 3%;
   border-radius: 5px;
   border: 1px solid silver;
-}
-
-.formElement textarea {
-  width: 100%;
-  padding: 10px 5px;
-  margin-top: 3%;
-  border-radius: 5px;
-  border: 1px solid silver;
+  padding: 10px 0px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -62,15 +66,13 @@ export default {
   }
 
   .formElement{
-    margin-left: 4%;
-  }
-
-  .formElement input {
     width: 90%;
   }
 
-  .formElement textarea {
-    width: 90%;
+  .correccionBTN{
+    margin-left: 0;
+    width: 100%;
+    margin: auto;
   }
 }
 

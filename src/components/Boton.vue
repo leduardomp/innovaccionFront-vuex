@@ -21,4 +21,9 @@ export default {
     padding: 10px 0px;
     font-size: 1.3em;
 }
+
+.btn:hover{
+  cursor: pointer;
+}
+
 </style>

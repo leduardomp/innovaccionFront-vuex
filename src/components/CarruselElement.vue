@@ -39,6 +39,10 @@ export default {
   bottom: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 1px 3px 4px 5px #000000;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  padding: 10px 5px;
 }
 
 .textA {
